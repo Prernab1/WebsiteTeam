@@ -1,8 +1,31 @@
-h1#saru {
-	font-family: helvetica;
+body {
+	font-family: times;
+}
+header
+.imaris {
+	margin: 40px 0px 0px 0px;
+	border: 9px #660066;
+	border-radius: 15px;
+	border-style: groove;
+	text-align: center;
+}
+.mainpage {
+	text-align: center;
+	font-size: 50px;
+}
+p.mainpage {
+	text-align: center;
+	font-size: 15px;
+}
+li.horizontal {
+	display: inline;
+padding: 100px 250px 250px 0px;
+}
+
+h1.about_me_titles {
 	font-size: 28px;
 	color: purple;
 }
-p#saru {
+p.about_me_titles {
 	color: red;
 }
