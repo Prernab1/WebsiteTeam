@@ -1,5 +1,6 @@
 body {
 	font-family: times;
+	color: #008080;
 }
 header
 .imaris {
@@ -9,13 +10,19 @@ header
 	border-style: groove;
 	text-align: center;
 }
-.mainpage {
+.main {
 	text-align: center;
 	font-size: 50px;
+	background-image: url(/assets/technology_background.jpg);
+	background-size: cover;
 }
-p.mainpage {
+div
+.mainpage {
 	text-align: center;
 	font-size: 15px;
+}
+#features {
+
 }
 li.horizontal {
 	display: inline;
@@ -26,6 +33,7 @@ h1.about_me_titles {
 	font-size: 28px;
 	color: purple;
 }
-p.about_me_titles {
-	color: red;
+p#main_p {
+	text-align: center;
+	font-size: 15px;
 }
