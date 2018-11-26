@@ -1,6 +1,6 @@
 body {
 	font-family: times;
-	color: #008080;
+	color: white;
 }
 header
 .imaris {
@@ -13,10 +13,18 @@ header
 #main_header {
 	text-align: center;
 	font-size: 50px;
-	background-image: url(assets/header_background.jpeg);
+	background-image: url(assets/header_background image.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 150px;
+}
+
+#gloria {
+	width: 200px;
+	height: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 div
 .mainpage {
@@ -40,7 +48,10 @@ div
 	height: 120px;
 }
 #swarali_page {
-	background-image:url(assets/Background_Swarali.png);
+	background-image:url(assets/background_for_pages.jpg);
+}
+#gloria_page {
+	background-image:url(assets/background_for_pages.jpg);
 }
 li.horizontal {
 	display: inline;
@@ -49,7 +60,7 @@ padding: 100px 250px 250px 0px;
 
 h1.about_me_titles {
 	font-size: 28px;
-	color: purple;
+	color: #87CEEB;
 }
 p#main_p {
 	text-align: center;
