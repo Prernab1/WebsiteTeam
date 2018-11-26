@@ -2,23 +2,25 @@ body {
 	font-family: times;
 	color: #008080;
 }
-header
-.imaris {
-	margin: 40px 0px 0px 0px;
-	border: 9px #660066;
+
+header.imaris {
 	border-radius: 15px;
+	border: 9px #660066;
 	border-style: groove;
 	text-align: center;
 }
 #main_header {
 	text-align: center;
 	font-size: 50px;
-	background-image: url(assets/header_background.jpeg);
+	background-image: url('assets/header_background.jpeg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 150px;
 }
-div
+#nice_background {
+	background-image: url('assets/background_image.jpg');
+}
+
 .mainpage {
 	text-align: center;
 	font-size: 15px;
@@ -40,8 +42,10 @@ div
 	height: 120px;
 }
 #swarali_page {
-	background-image:url(assets/Background_Swarali.png);
+	background-image:url('assets/Background_Swarali.png');
+	background-color:
 }
+
 li.horizontal {
 	display: inline;
 padding: 100px 250px 250px 0px;
