@@ -21,8 +21,13 @@ div
 	text-align: center;
 	font-size: 15px;
 }
-#features {
-
+#social-buttons {
+	padding: 20px;
+	width: 50px;
+	font-size: 15px;
+}
+.jumbotron {
+	background-image:url(assets/Background_Swarali.png);
 }
 li.horizontal {
 	display: inline;
