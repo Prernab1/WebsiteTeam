@@ -10,23 +10,36 @@ header
 	border-style: groove;
 	text-align: center;
 }
-.main {
+#main_header {
 	text-align: center;
 	font-size: 50px;
-	background-image: url(/assets/technology_background.jpg);
+	background-image: url(assets/header_background.jpeg);
+	background-repeat: no-repeat;
 	background-size: cover;
+	padding: 150px;
 }
 div
 .mainpage {
 	text-align: center;
 	font-size: 15px;
 }
-#social-buttons {
-	padding: 20px;
-	width: 50px;
-	font-size: 15px;
+.btn-LinkedIn {
+	background-color: #4868ac;
+	border-color: #314776;
 }
-.jumbotron {
+#features li {
+	list-style-type: none;
+}
+#women {
+	text-align: center;
+}
+#women img{
+	max-height: 150px;
+	max-width: 200px;
+	width: 120px;
+	height: 120px;
+}
+#swarali_page {
 	background-image:url(assets/Background_Swarali.png);
 }
 li.horizontal {
