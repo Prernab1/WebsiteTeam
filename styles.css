@@ -4,11 +4,15 @@ body {
 }
 
 header.imaris {
-	border-radius: 15px;
 	border: 9px #660066;
 	border-style: groove;
-	text-align: center;
 }
+header.img-circle {
+	border-right: 10px;
+	width:200px;
+	height:200px;
+}
+
 #main_header {
 	text-align: center;
 	font-size: 50px;
@@ -19,6 +23,7 @@ header.imaris {
 }
 #nice_background {
 	background-image: url('assets/background_image.jpg');
+	background-size: cover;
 }
 
 .mainpage {
