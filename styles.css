@@ -1,8 +1,57 @@
-h1#saru {
-	font-family: helvetica;
+body {
+	font-family: times;
+	color: #008080;
+}
+header
+.imaris {
+	margin: 40px 0px 0px 0px;
+	border: 9px #660066;
+	border-radius: 15px;
+	border-style: groove;
+	text-align: center;
+}
+#main_header {
+	text-align: center;
+	font-size: 50px;
+	background-image: url(assets/header_background.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 150px;
+}
+div
+.mainpage {
+	text-align: center;
+	font-size: 15px;
+}
+.btn-LinkedIn {
+	background-color: #4868ac;
+	border-color: #314776;
+}
+#features li {
+	list-style-type: none;
+}
+#women {
+	text-align: center;
+}
+#women img{
+	max-height: 150px;
+	max-width: 200px;
+	width: 120px;
+	height: 120px;
+}
+#swarali_page {
+	background-image:url(assets/Background_Swarali.png);
+}
+li.horizontal {
+	display: inline;
+padding: 100px 250px 250px 0px;
+}
+
+h1.about_me_titles {
 	font-size: 28px;
 	color: purple;
 }
-p#saru {
-	color: red;
+p#main_p {
+	text-align: center;
+	font-size: 15px;
 }
