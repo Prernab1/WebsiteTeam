@@ -10,16 +10,31 @@ header.img-circle {
 	width:200px;
 	height:200px;
 }
-
+div#image_header {
+background-image: url('assets/header_background.jpeg');
+background-repeat: no-repeat;
+background-size: cover;
+padding: 200px;
+border: 0px;
+text-shadow: 1px 1px 0px rgba(255, 0, 0, 0.5);
+}
 /* Refines main (city) image to look better. */
 #main_header {
 	text-align: center;
-	font-size: 50px;
-	background-image: url('assets/header_background.jpeg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding: 200px;
-	border: 0px;
+	font-size: 70px;
+	letter-spacing: -0.01em;
+	margin-top: -50px;
+	letter-spacing: -0.05em;
+
+}
+/* Makes the font under our team name smaller*/
+#p_header {
+	text-align: center;
+	padding-left: 50px;
+	font-size: 25px;
+	letter-spacing: -0.05em;
+	text-indent: 200px;
+	margin-top: -25px;
 }
 
 #gloria {
@@ -63,10 +78,6 @@ div.btn-LinkedIn {
 	background-color:
 }
 
-li.horizontal {
-	display: inline;
-padding: 100px 250px 250px 0px;
-}
 
 h1.about_me_titles {
 	font-size: 28px;
