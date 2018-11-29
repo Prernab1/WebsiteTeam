@@ -13,9 +13,9 @@ header.img-circle {
 div#image_header {
 background-image: url('assets/header_background.jpeg');
 background-repeat: no-repeat;
+-webkit-background-size: cover;
 background-size: cover;
 padding: 200px;
-border: 0px;
 text-shadow: 1px 1px 0px rgba(255, 0, 0, 0.5);
 }
 /* Refines main (city) image to look better. */
