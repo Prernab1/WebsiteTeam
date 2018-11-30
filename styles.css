@@ -10,11 +10,16 @@ header.img-circle {
 	width:200px;
 	height:200px;
 }
+
 div#image_header {
 background-image: url('assets/header_background.jpeg');
 background-repeat: no-repeat;
 -webkit-background-size: cover;
+width: 100%;
+height: auto;
 background-size: cover;
+margin-top: -20px;
+margin-bottom: -20px;
 padding: 200px;
 text-shadow: 1px 1px 0px rgba(255, 0, 0, 0.5);
 }
@@ -36,8 +41,8 @@ text-shadow: 1px 1px 0px rgba(255, 0, 0, 0.5);
 	text-indent: 200px;
 	margin-top: -25px;
 }
-
-#gloria {
+/*renamed #gloria as #individual_image to center all our images on our about_me pages*/
+#individual_image {
 	width: 200px;
 	height: 200px;
 	display: block;
@@ -58,9 +63,10 @@ div.mainpage {
 div.btn-LinkedIn {
 	background-color: #4868ac;
 	border-color: #314776;
-}
-#features li {
 	list-style-type: none;
+}
+div.mainpage{
+	padding: 40px;
 }
 
 #women img{
@@ -70,14 +76,10 @@ div.btn-LinkedIn {
 	height: 120px;
 }
 /* all "#name_page" IDs Keep background images for each of our pages similar, and protects from individual changes - lovely background, thanks Gloria! */
-#swarali_page {
+#individual_page {
 	background-image:url(assets/background_for_pages.jpg);
+	margin-top: -20px;
 }
-#gloria_page {
-	background-image:url(assets/background_for_pages.jpg);
-	background-color:
-}
-
 
 h1.about_me_titles {
 	font-size: 28px;
