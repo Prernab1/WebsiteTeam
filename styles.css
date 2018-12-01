@@ -13,6 +13,9 @@ header.img-circle {
 }
 
 div#image_header {
+	background-image: url('assets/header_background.jpeg');
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
 width: 100%;
 height: auto;
 background-size: cover;
@@ -47,6 +50,11 @@ text-shadow: 1px 1px 0px rgba(255, 0, 0, 0.5);
 	letter-spacing: -0.05em;
 	text-indent: 200px;
 	margin-top: -25px;
+}
+div#nice_background {
+	background-image: url('assets/background_image.jpg');
+	background-size: cover;
+	width: 100%;
 }
 .main {
 	width: 100%;
