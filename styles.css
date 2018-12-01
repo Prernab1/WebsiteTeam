@@ -27,6 +27,8 @@ text-shadow: 1px 1px 0px rgba(255, 0, 0, 0.5);
 /* Refines main (city) image to look better. */
 #main_header {
 	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
 	font-size: 70px;
 	letter-spacing: -0.01em;
 	margin-top: -50px;
@@ -47,6 +49,7 @@ text-shadow: 1px 1px 0px rgba(255, 0, 0, 0.5);
 #p_header {
 	text-align: center;
 	padding-left: 50px;
+	padding-right: 50px;
 	font-size: 25px;
 	letter-spacing: -0.05em;
 	text-indent: 200px;
