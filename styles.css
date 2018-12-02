@@ -27,6 +27,8 @@ text-shadow: 1px 1px 0px rgba(255, 0, 0, 0.5);
 /* Refines main (city) image to look better. */
 #main_header {
 	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
 	font-size: 70px;
 	letter-spacing: -0.01em;
 	margin-top: -50px;
@@ -52,20 +54,26 @@ text-shadow: 1px 1px 0px rgba(255, 0, 0, 0.5);
 	text-indent: 200px;
 	margin-top: -25px;
 }
+.main {
+	width: 100%;
+}
 
 /* Adds the delicate blue background to the front page. */
 div#nice_background {
 	background-image: url('assets/background_image.jpg');
 	background-size: cover;
+	width: 100%;
 }
 
 div.mainpage {
 	text-align: center;
 	font-size: 15px;
+	width: 100%;
 }
 
 div.mainpage{
 	padding: 40px;
+	width: 100%;
 }
 .descriptions {
 font-size: 20px;
