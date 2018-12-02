@@ -100,6 +100,8 @@ font-size: 20px;
 h1.about_me_titles {
 	font-size: 28px;
 	color: #87CEEB;
+	text-align: center;
+	background-color: rgba(128, 17, 45, 0.8);
 }
 /*renamed #gloria as #individual_image to center all our images on our about_me pages*/
 #individual_image {
