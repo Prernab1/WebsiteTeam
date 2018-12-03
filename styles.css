@@ -1,3 +1,6 @@
+html {
+	box-sizing: border-box;
+}
 /* Ensures uniformity in fonts across all pages */
 body {
 	font-family: times;
@@ -5,6 +8,56 @@ body {
 	font-size: 20px;
 }
 
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*='col-'] {
+    float: left;
+    border: none;
+		width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+/* If the screen size is 600px wide or less, hide the element */
+@media only screen and (max-width: 600px) {
+	h1.main {
+text-align: justify;
+	}
+  p.main {
+    display: none;
+  }
+}
 /* Makes all images circular. */
 header.img-circle {
 	border-right: 10px;
@@ -12,11 +65,19 @@ header.img-circle {
 	height:200px;
 }
 
+div.col-1 {
+	width:8.33%
+}
+
+div.col-12 {
+	width:100%
+}
+
 div#image_header {
 background-image: url('assets/header_background.jpeg');
 background-repeat: no-repeat;
 -webkit-background-size: cover;
-width: 100%;
+max-width: 100%;
 height: auto;
 background-size: cover;
 margin-top: -20px;
@@ -24,15 +85,36 @@ margin-bottom: -20px;
 padding: 200px;
 text-shadow: 1px 1px 0px rgba(255, 0, 0, 0.5);
 }
+/* If the screen size is 601px or more, set the font-size of <div> to 80px */
+@media only screen and (min-width: 601px) {
+  div#main_header {
+    font-size: 80px;
+    position: sticky; }
+}
+
+/* If the screen size is 600px or less, set the font-size of <div> to 30px */
+@media only screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
 /* Refines main (city) image to look better. */
 #main_header {
 	text-align: center;
 	padding-left: 50px;
 	padding-right: 50px;
-	font-size: 70px;
 	letter-spacing: -0.01em;
 	margin-top: -50px;
 	letter-spacing: -0.05em;
+}
+/* Makes the font under our team name smaller*/
+#p_header {
+	text-align: center;
+	padding-left: 50px;
+	font-size: 25px;
+	letter-spacing: -0.05em;
+	text-indent: 200px;
+	margin-top: -25px;
 }
 /*UNSUCCESSFUL: one of my many attempts to change the text color in the nav bar. If anyone knows how to fix the color (color choice given below), please feel free to change the code!*/
 #nav_text_color ul li {
@@ -43,19 +125,13 @@ text-shadow: 1px 1px 0px rgba(255, 0, 0, 0.5);
 #customise_nav {
 	background-color: #000033;
 	border-color: #000033;
+	padding-top: 15px;
+	padding-bottom: 15px;
+
 }
 
-/* Makes the font under our team name smaller*/
-#p_header {
-	text-align: center;
-	padding-left: 50px;
-	font-size: 25px;
-	letter-spacing: -0.05em;
-	text-indent: 200px;
-	margin-top: -25px;
-}
 .main {
-	width: 100%;
+ max-width: 100%;
 }
 
 /* Adds the delicate blue background to the front page. */
