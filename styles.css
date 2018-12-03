@@ -52,7 +52,7 @@ body {
 /* If the screen size is 600px wide or less, hide the element */
 @media only screen and (max-width: 600px) {
 	h1.main {
-text-align: justify;
+		display: run-in;
 	}
   p.main {
     display: none;
@@ -130,9 +130,6 @@ text-shadow: 1px 1px 0px rgba(255, 0, 0, 0.5);
 
 }
 
-.main {
- max-width: 100%;
-}
 
 /* Adds the delicate blue background to the front page. */
 div#nice_background {
